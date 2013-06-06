@@ -74,7 +74,7 @@ if (trim($_REQUEST["botaoAcaoExcluir"]) == "Excluir") {
         unset($_SESSION["adm_conselhoProfissional_numero"]);
         unset($_SESSION["adm_conselhoProfissional_uf"]);
         
-        $_SESSION["adm_conselhoProfissional_aviso"] = "ok"; 
+        $_SESSION["adm_conselhoProfissional_aviso"] = "ok";  
 
         voltarPagina($link_acao);
     }
