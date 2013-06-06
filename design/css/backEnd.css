@@ -1,0 +1,171 @@
+body {
+	background-color: #e6e6e6;
+	margin          : 0px;
+	padding         : 0px;
+	border          : none;
+	text-align      : center;
+	font-family     : Arial, Verdana, Helvetica, sans-serif;
+	font-size       : 11px;
+	color           : #000000;
+}
+
+.limpar {
+	clear: both;
+}
+
+#tudo_conteudo {
+	width     : 900px;     
+	margin    : 0px auto;
+	padding   : 0px;
+	text-align: left;
+}
+
+#conteudo {
+	margin : 0px auto;
+	padding: 10px;
+}
+
+/*
+#menu {
+	height   : 30px;
+	overflow : auto;
+	font-size: 13px;
+	color    : #868686;
+}
+
+	#menu ul {
+		list-style-type: none;
+		margin         : 0px;
+		padding        : 0px;
+		line-height    : 30px;
+		text-align     : center;
+	}
+	
+	#menu li {
+		display   : inline;
+		text-align: center;
+		margin    : 0px;
+	}
+
+	#menu li a {
+		text-decoration: none;
+		padding-top    : 5px;
+		padding-left   : 5px;
+		padding-right  : 5px;
+		padding-bottom : 5px;
+		font-weight    : bold;
+		color          : #868686;
+	}
+	
+	#menu li a:hover {
+		color: #1e54a0;
+	}
+*/
+
+#noticia p {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size  : 11px;
+	color      : #000000;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#noticia a {
+	font-family    : Arial, Verdana, Helvetica, sans-serif;
+	font-size      : 12px;
+	color          : #122536;
+	font-weight    : bold;
+	text-decoration: none;
+}
+
+#noticia a:hover {
+	color: #005fa8;
+}
+
+h1 {
+	font-family   : Arial, Verdana, Helvetica, sans-serif;
+	font-size     : 24px;
+	color         : #162d41;
+	font-weight   : bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family   : Arial, Verdana, Helvetica, sans-serif;
+	font-size     : 18px;
+	color         : #162d41;
+	font-weight   : bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size  : 16px;
+	color      : #000000;
+}
+
+p {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size  : 11px;
+	color      : #000000;
+}
+
+a {
+	text-decoration: none;
+	font-family    : Arial, Verdana, Helvetica, sans-serif;
+	font-size      : 11px;
+	font-weight    : bold;
+	color          : #122536;
+}
+
+a:hover {
+	color: #005fa8;
+}
+
+form {
+	border : 0px;
+	margin : 0px;
+	padding: 0px;
+}
+
+.frmCampoTexto {
+	border          : 1px solid #cdcdcd;
+	background-color: #ffffff;
+	margin          : 2px;
+	padding         : 3px;
+	font-size       : 11px;
+}
+
+.frmBotao {
+	border          : 1px outset #cdcdcd;
+	background-color: #e6e6e6;
+	margin          : 2px;
+	padding         : 3 8 3 8;
+	font-size       : 11px;
+	font-weight     : bold;
+	color           : #000000;
+}
+
+.msgok, .msgerro {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size  : 11px;
+	font-weight: bold;
+}
+
+.msgerro {
+	border-top      : #891635 solid 1px;
+	border-right    : #891635 solid 1px;
+	border-bottom   : #891635 solid 1px;
+	border-left     : #891635 solid 1px;
+	background-color: #a44756;
+	color           : #ffffff;
+}
+
+.msgok {
+	border-top      : #006600 solid 1px;
+	border-right    : #006600 solid 1px;
+	border-bottom   : #006600 solid 1px;
+	border-left     : #006600 solid 1px;
+	background-color: #00CC66;
+	color           : #000000;
+}
